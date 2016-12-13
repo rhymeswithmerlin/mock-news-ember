@@ -1,17 +1,14 @@
-# mock-news-ember
+# Welcome to the MockNews.com Project
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This site will interface with https://newsapi.org/ to display news from various resources.
 
-## Prerequisites
+## Technologies
 
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* Ember
+* Mirage
+* SCSS
+* CircleCi
+* AWS LightSail
 
 ## Installation
 
@@ -22,12 +19,9 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
+* To run the app with mirage: `ember serve`
+* To run the app with the live api: `ember serve --proxy "https://newsapi.org"`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -41,12 +35,4 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* Coming soon
