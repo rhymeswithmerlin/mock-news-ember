@@ -7,6 +7,3 @@ dependencies:
   override:
     - npm i
     - bower i
-deployment:
-  production:
-    branch: master
