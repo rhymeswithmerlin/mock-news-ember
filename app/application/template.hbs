@@ -1,0 +1,11 @@
+<nav class="nav mne-top-nav">
+  {{#link-to 'articles' class="navbar-brand mne-top-nav__logo"}}  MockNews<span class="text-primary">.</span>org{{/link-to}}
+  <ul class="nav navbar-nav">
+      <li class="nav-item mne-top-nav__list-item">
+        {{#link-to 'articles' class="nav-link mne-top-nav__link"}}Articles{{/link-to}}
+      </li>
+  </ul>
+</nav>
+<div class="container-fluid">
+  {{outlet}}
+</div>

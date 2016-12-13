@@ -1,0 +1,30 @@
+// Styles for {{mne-story-list }}
+.mne-story-list {
+  box-shadow: 5px 5px 3px #888888;
+  padding: 10px;
+  list-style: none;
+  &__author {
+    color: $red;
+    font-weight: bold;
+  }
+  &__link {
+    color: $black;
+    &:hover {
+      color: $gray;
+      text-decoration: none;
+    }
+  }
+  &__list-item {
+    border-bottom: 1px solid $gray;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  &__title {
+    color: $black;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 3px solid $red;
+    margin-bottom: 10px;
+  }
+}

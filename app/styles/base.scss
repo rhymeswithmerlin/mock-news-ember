@@ -1,0 +1,34 @@
+/* ------------------------------------------------------
+ Navigation Styles
+------------------------------------------------------- */
+.mne-top-nav {
+  background-color: $black;
+  // Basic HTML Tags
+  a {
+    color: $white;
+  }
+  // Elements
+  &__logo {
+    font-size: 2.5em;
+  }
+
+  &__list-item {
+    font-size: 1.2em;
+  }
+
+  &__link {
+    &.active {
+      border-bottom: 3px solid $red;
+    }
+    &:hover {
+      color: $gray;
+    }
+  }
+}
+
+/* ------------------------------------------------------
+ Global Styles
+------------------------------------------------------- */
+.text-primary {
+  color: $red;
+}
