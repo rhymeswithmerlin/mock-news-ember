@@ -1,4 +1,4 @@
-# Welcome to the MockNews.com Project
+# Welcome to the MockNews.com Project!
 
 This site will interface with https://newsapi.org/ to display news from various resources.
 
