@@ -7,3 +7,4 @@ dependencies:
   override:
     - npm i
     - bower i
+    - npm rebuild node-sass
