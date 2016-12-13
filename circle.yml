@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 0.10.28
+dependencies:
+  pre:
+    - npm install -g bower
+  override:
+    - npm i
+    - bower i
+deployment:
+  production:
+    branch: master
