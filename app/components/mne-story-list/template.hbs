@@ -5,6 +5,11 @@
   {{/if}}
   {{#each model as |article|}}
   <li class="mne-story-list__list-item">
+    {{#if showImages}}
+    <div class="mne-story-list__image-container">
+      <img src={{article.urlToImage}} alt={{artile.description}} class="mne-story-list__image"/>
+    </div>
+    {{/if}}
     <div class="mne-story-list__author">
       {{article.author}}
     </div>

@@ -5,6 +5,6 @@ export default DS.Model.extend({
   title: DS.attr('string'),
   description: DS.attr('string'),
   url: DS.attr('string'),
-  imageUrl: DS.attr('string'),
-  publishDate: DS.attr('date')
+  urlToImage: DS.attr('string'),
+  publishedAt: DS.attr('date')
 });
