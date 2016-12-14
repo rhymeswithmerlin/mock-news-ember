@@ -1,0 +1,18 @@
+// Styles for {{mne-image-list }}
+.mne-image-list {
+  position: relative;
+  &__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  &__title {
+    position: absolute;
+    bottom: 0;
+    font-size: 3em;
+    color: $white;
+    background-color: $black;
+    opacity: .5;
+  }
+}

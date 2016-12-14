@@ -1,0 +1,8 @@
+<div class='row mne-image-list'>
+  {{#each model as |article|}}
+  <a href={{article.url}} target="_blank">
+    <img class="mne-image-list__image" src={{article.urlToImage}} alt={{article.title}} />
+    <div class="mne-image-list__title">{{article.title}}</div>
+  </a>
+  {{/each}}
+</div>

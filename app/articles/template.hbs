@@ -1,8 +1,14 @@
 <div class='row'>
-  <div class="col-sm-9">
-    {{mne-story-list model=model title="Top News from Next Web" showImages=true}}
+  <div class="col-sm-3">
+    {{mne-story-list model=nextWeb title="Top News from Next Web"}}
   </div>
   <div class="col-sm-3">
-    {{mne-story-list model=model title="Top News from Next Web"}}
+    {{mne-story-list model=buzzFeed title="Top News from BuzzFeed"}}
+  </div>
+  <div class="col-sm-3">
+    {{mne-story-list model=reuters title="Top News from Reuters"}}
+  </div>
+  <div class="col-sm-3">
+    {{mne-story-list model=associatedPress title="Top News from AP"}}
   </div>
 </div>

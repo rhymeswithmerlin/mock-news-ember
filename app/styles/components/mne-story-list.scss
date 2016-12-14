@@ -7,18 +7,18 @@
     color: $red;
     font-weight: bold;
   }
-  &__image {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-  }
-  &__image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-height: 100px;
-  }
+  // &__image {
+  //   flex-shrink: 0;
+  //   min-width: 100%;
+  //   min-height: 100%
+  // }
+  // &__image-container {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   overflow: hidden;
+  //   max-height: 100px;
+  // }
   &__link {
     color: $black;
     &:hover {
