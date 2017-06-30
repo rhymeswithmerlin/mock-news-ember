@@ -29,11 +29,11 @@ This site will interface with https://newsapi.org/ to display news from various 
 * `ember test`
 * `ember test --server`
 
-### Features
+## Features
 
 Currently there are two reusable components:
 
-#### mne-story-list
+### mne-story-list
 This component accepts a news source and a title and displays a list of stories from that news source.
 Current available models:
 * buzzFeed
@@ -43,7 +43,7 @@ Current available models:
 
 Usage: `{{mne-story-list model=buzzFeed title="Top News from BuzzFeed"}}`
 
-#### mne-image-list
+### mne-image-list
 This component accepts a news source and a title and displays a list of stories with imagesfrom that news source.
 Available models are the same as mne-story list.
 Usage: `{{mne-image-list model=buzzFeed title="Top News from BuzzFeed"}}`
