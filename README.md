@@ -19,8 +19,9 @@ This site will interface with https://newsapi.org/ to display news from various 
 
 ## Running / Development
 
-* To run the app with mirage: `ember serve`
+* To run the app with mirage: `ember serve` (Recommended to see basic functionality)
 * To run the app with the live api: `ember serve --proxy "https://newsapi.org"`
+  Note: you will have to get an API key from https://newsapi.org/register and put that API key as a header in app/adapters/application.js
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Running Tests
@@ -28,11 +29,21 @@ This site will interface with https://newsapi.org/ to display news from various 
 * `ember test`
 * `ember test --server`
 
-### Building
+### Features
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Currently there are two reusable components:
 
-### Deploying
+#### mne-story-list
+This component accepts a news source and a title and displays a list of stories from that news source.
+Current available models:
+* buzzFeed
+* nextWeb
+* reuters
+* associatedPress
 
-* Coming soon
+Usage: `{{mne-story-list model=buzzFeed title="Top News from BuzzFeed"}}`
+
+#### mne-image-list
+This component accepts a news source and a title and displays a list of stories with imagesfrom that news source.
+Available models are the same as mne-story list.
+Usage: `{{mne-image-list model=buzzFeed title="Top News from BuzzFeed"}}`
